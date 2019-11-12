@@ -83,7 +83,7 @@ QString getAccountName(){
     if (accountName.isEmpty())
         accountName = qgetenv("USERNAME"); // Windows
     if (accountName.isEmpty())
-        accountName = "My monero Account";
+        accountName = "My wownero Account";
     return accountName;
 }
 
@@ -91,11 +91,11 @@ QString getAccountName(){
 QString xdgMime(QApplication &app){
     return QString(
         "[Desktop Entry]\n"
-        "Name=Monero GUI\n"
-        "GenericName=Monero-GUI\n"
-        "X-GNOME-FullName=Monero-GUI\n"
-        "Comment=Monero GUI\n"
-        "Keywords=Monero;\n"
+        "Name=Wownero App\n"
+        "GenericName=Wownero App\n"
+        "X-GNOME-FullName=Wownero-App\n"
+        "Comment=Wownero App\n"
+        "Keywords=Wownero;\n"
         "Exec=%1 %u\n"
         "Terminal=false\n"
         "Type=Application\n"
@@ -116,7 +116,7 @@ void registerXdgMime(QApplication &app){
     // - Tails written to persistent dotfiles
     QString mime = xdgMime(app);
     QString appPath = QStandardPaths::writableLocation(QStandardPaths::ApplicationsLocation);
-    QString filePath = QString("%1/monero-gui.desktop").arg(appPath);
+    QString filePath = QString("%1/wownero-app.desktop").arg(appPath);
 
     if (TailsOS::detect() && TailsOS::detectDotPersistence() && TailsOS::usePersistence) {
         TailsOS::persistXdgMime(filePath, mime);

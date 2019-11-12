@@ -256,11 +256,11 @@ Rectangle {
     ListModel {
         id: fiatPriceCurrencyModel
         ListElement {
-            data: "xmrusd"
+            data: "wowusd"
             column1: "USD"
         }
         ListElement {
-            data: "xmreur"
+            data: "woweur"
             column1: "EUR"
         }
     }

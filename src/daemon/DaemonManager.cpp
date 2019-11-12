@@ -121,7 +121,7 @@ bool DaemonManager::start(const QString &flags, NetworkType::Type nettype, const
         arguments << "--max-concurrency" << QString::number(concurrency);
     }
 
-    qDebug() << "starting monerod " + m_monerod;
+    qDebug() << "starting wownerod " + m_monerod;
     qDebug() << "With command line arguments " << arguments;
 
     QMutexLocker locker(&m_daemonMutex);
@@ -202,9 +202,9 @@ bool DaemonManager::stopWatcher(NetworkType::Type nettype) const
             if(counter >= 5) {
                 qDebug() << "Killing it! ";
 #ifdef Q_OS_WIN
-                QProcess::execute("taskkill",  {"/F", "/IM", "monerod.exe"});
+                QProcess::execute("taskkill",  {"/F", "/IM", "wownerod.exe"});
 #else
-                QProcess::execute("pkill", {"monerod"});
+                QProcess::execute("pkill", {"wownerod"});
 #endif
             }
 
@@ -322,9 +322,9 @@ QVariantMap DaemonManager::validateDataDir(const QString &dataDir) const
             valid = false;
         }
 
-        // Make sure there is 75GB storage available
+        // Make sure there is 5GB storage available
         storageAvailable = storage.bytesAvailable()/1000/1000/1000;
-        if (storageAvailable < 75) {
+        if (storageAvailable < 5) {
             valid = false;
         }
     } else {
@@ -352,9 +352,9 @@ DaemonManager::DaemonManager(QObject *parent)
 
     // Platform depetent path to monerod
 #ifdef Q_OS_WIN
-    m_monerod = QApplication::applicationDirPath() + "/monerod.exe";
+    m_monerod = QApplication::applicationDirPath() + "/wownerod.exe";
 #elif defined(Q_OS_UNIX)
-    m_monerod = QApplication::applicationDirPath() + "/monerod";
+    m_monerod = QApplication::applicationDirPath() + "/wownerod";
 #endif
 
     if (m_monerod.length() == 0) {

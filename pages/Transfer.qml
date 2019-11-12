@@ -51,7 +51,7 @@ Rectangle {
     color: "transparent"
     property alias transferHeight1: pageRoot.height
     property alias transferHeight2: advancedLayout.height
-    property int mixin: 10  // (ring size 11)
+    property int mixin: 21  // (ring size 22)
     property string warningContent: ""
     property string sendButtonWarning: {
         // Currently opened wallet is not view-only
@@ -159,7 +159,7 @@ Rectangle {
           visible: leftPanel.minutesToUnlock !== ""
 
           MoneroComponents.WarningBox {
-              text: qsTr("Spendable funds: %1 XMR. Please wait ~%2 minutes for your whole balance to become spendable.").arg(leftPanel.balanceUnlockedString).arg(leftPanel.minutesToUnlock)
+              text: qsTr("Spendable funds: %1 WOW. Please wait ~%2 minutes for your whole balance to become spendable.").arg(leftPanel.balanceUnlockedString).arg(leftPanel.minutesToUnlock)
           }
       }
 
@@ -177,7 +177,7 @@ Rectangle {
               labelButtonText: qsTr("Resolve") + translationManager.emptyString
               placeholderText: {
                   if(persistentSettings.nettype == NetworkType.MAINNET){
-                      return "4.. / 8.. / OpenAlias";
+                      return "Wo.. / WW.. / OpenAlias";
                   } else if (persistentSettings.nettype == NetworkType.STAGENET){
                       return "5.. / 7..";
                   } else if(persistentSettings.nettype == NetworkType.TESTNET){
@@ -773,7 +773,7 @@ Rectangle {
             root.warningContent = messageNotConnected;
             break
         case Wallet.ConnectionStatus_WrongVersion:
-            root.warningContent = qsTr("Connected daemon is not compatible with GUI. \n" +
+            root.warningContent = qsTr("Connected daemon is not compatible with App. \n" +
                                    "Please upgrade or connect to another daemon")
             break
         default:

@@ -7,7 +7,7 @@ TEMPLATE = app
 
 QT += svg qml gui-private quick widgets
 
-WALLET_ROOT=$$PWD/monero
+WALLET_ROOT=$$PWD/wownero
 
 CONFIG += c++11 link_pkgconfig
 packagesExist(libusb-1.0) {

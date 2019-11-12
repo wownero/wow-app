@@ -711,7 +711,7 @@ Rectangle {
                                     font.pixelSize: 15
                                     text: {
                                         if(!isout && confirmationsRequired === 60) return qsTr("Yes") + translationManager.emptyString;
-                                        if(fee !== "") return fee + " XMR";
+                                        if(fee !== "") return fee + " WOW";
                                         return "-";
                                     }
 

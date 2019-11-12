@@ -107,7 +107,7 @@ QVariant TransactionHistoryModel::parseTransactionInfo(const TransactionInfo &tI
     case TransactionConfirmationsRole:
         return tInfo.confirmations();
     case TransactionConfirmationsRequiredRole:
-        return (tInfo.blockHeight() < tInfo.unlockTime()) ? tInfo.unlockTime() - tInfo.blockHeight() : 10;
+        return (tInfo.blockHeight() < tInfo.unlockTime()) ? tInfo.unlockTime() - tInfo.blockHeight() : 4;
     case TransactionHashRole:
         return tInfo.hash();
     case TransactionTimeStampRole:
