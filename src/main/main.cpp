@@ -245,7 +245,7 @@ Verify update binary using 'shasum'-compatible (SHA256 algo) output signed by tw
 
     // Log settings
     const QString logPath = QDir::toNativeSeparators(getLogPath(parser.value(logPathOption)));
-    Monero::Wallet::init(argv[0], "wownero-wallet-gui", logPath.toStdString().c_str(), true);
+    Monero::Wallet::init(argv[0], "wownero-app", logPath.toStdString().c_str(), true);
     qInstallMessageHandler(messageHandler);
 
     // loglevel is configured in main.qml. Anything lower than

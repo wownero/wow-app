@@ -80,29 +80,29 @@ if(MINGW)
     list(APPEND RESOURCES ${ICON_RES})
 endif()
 
-add_executable(monero-wallet-gui ${EXECUTABLE_FLAG} main/main.cpp
+add_executable(wownero-app ${EXECUTABLE_FLAG} main/main.cpp
     ${SOURCE_FILES}
     ${PASS_STRENGTH_FILES}
     ${QR_CODE_FILES}
     ${RESOURCES}
 )
-set_property(TARGET monero-wallet-gui PROPERTY RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
+set_property(TARGET wownero-app PROPERTY RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
 
 # OpenGL
-target_include_directories(monero-wallet-gui PUBLIC ${OPENGL_INCLUDE_DIR})
+target_include_directories(wownero-app PUBLIC ${OPENGL_INCLUDE_DIR})
 message(STATUS "OpenGL: include dir at ${OPENGL_INCLUDE_DIR}")
 message(STATUS "OpenGL: libraries at ${OPENGL_LIBRARIES}")
 
-target_include_directories(monero-wallet-gui PUBLIC ${Qt5Gui_PRIVATE_INCLUDE_DIRS})
+target_include_directories(wownero-app PUBLIC ${Qt5Gui_PRIVATE_INCLUDE_DIRS})
 
 file(GLOB_RECURSE SRC_SOURCES *.cpp)
 file(GLOB_RECURSE SRC_HEADERS *.h)
 
-target_include_directories(monero-wallet-gui PUBLIC
-	${CMAKE_SOURCE_DIR}/monero/include
-    ${CMAKE_SOURCE_DIR}/monero/src
-    ${CMAKE_SOURCE_DIR}/monero/external/easylogging++
-    ${CMAKE_SOURCE_DIR}/monero/contrib/epee/include
+target_include_directories(wownero-app PUBLIC
+	${CMAKE_SOURCE_DIR}/wownero/include
+    ${CMAKE_SOURCE_DIR}/wownero/src
+    ${CMAKE_SOURCE_DIR}/wownero/external/easylogging++
+    ${CMAKE_SOURCE_DIR}/wownero/contrib/epee/include
 	${CMAKE_CURRENT_SOURCE_DIR}
 	${CMAKE_CURRENT_SOURCE_DIR}/daemon
 	${CMAKE_CURRENT_SOURCE_DIR}/libwalletqt
@@ -118,7 +118,7 @@ target_include_directories(monero-wallet-gui PUBLIC
     ${ZBAR_INCLUDE_DIR}
 )
 
-target_compile_definitions(monero-wallet-gui
+target_compile_definitions(wowneor-wallet-gui
 	PUBLIC
 	${Qt5Widgets_DEFINITIONS}
     ${Qt5Qml_DEFINITIONS}
@@ -127,23 +127,23 @@ target_compile_definitions(monero-wallet-gui
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${Qt5Widgets_EXECUTABLE_COMPILE_FLAGS}")
 
 if(X11_FOUND)
-    target_link_libraries(monero-wallet-gui ${X11_LIBRARIES} pthread dl Xt xcb X11)
+    target_link_libraries(wownero-app ${X11_LIBRARIES} pthread dl Xt xcb X11)
 endif()
 
 if(DEVICE_TREZOR_READY)
-    target_link_libraries(monero-wallet-gui ${TREZOR_DEP_LIBS})
+    target_link_libraries(wownero-app ${TREZOR_DEP_LIBS})
 endif()
 
-target_link_libraries(monero-wallet-gui
+target_link_libraries(wownero-app
     ${CMAKE_BINARY_DIR}/lib/libwallet_merged.a
     ${LMDB_LIBRARY}
-    ${CMAKE_BINARY_DIR}/monero/contrib/epee/src/libepee.a
-    ${CMAKE_BINARY_DIR}/monero/external/unbound/libunbound.a
+    ${CMAKE_BINARY_DIR}/wownero/contrib/epee/src/libepee.a
+    ${CMAKE_BINARY_DIR}/wownero/external/unbound/libunbound.a
     ${SODIUM_LIBRARY}
-    ${CMAKE_BINARY_DIR}/monero/external/easylogging++/libeasylogging.a
-    ${CMAKE_BINARY_DIR}/monero/src/blockchain_db/libblockchain_db.a
-    ${CMAKE_BINARY_DIR}/monero/external/randomx/librandomx.a
-    ${CMAKE_BINARY_DIR}/monero/src/hardforks/libhardforks.a
+    ${CMAKE_BINARY_DIR}/wownero/external/easylogging++/libeasylogging.a
+    ${CMAKE_BINARY_DIR}/wownero/src/blockchain_db/libblockchain_db.a
+    ${CMAKE_BINARY_DIR}/wownero/external/RandomWOW/librandomx.a
+    ${CMAKE_BINARY_DIR}/wownero/src/hardforks/libhardforks.a
     ${Boost_LIBRARIES}
     ${OPENSSL_LIBRARIES}
     ${CMAKE_DL_LIBS}
@@ -156,7 +156,7 @@ target_link_libraries(monero-wallet-gui
 )
 
 if(WITH_SCANNER)
-    target_link_libraries(monero-wallet-gui
+    target_link_libraries(wownero-app
         ${ZBAR_LIBRARIES}
         jpeg
         v4l2
@@ -165,6 +165,6 @@ if(WITH_SCANNER)
     )
 endif()
 
-install(TARGETS monero-wallet-gui
+install(TARGETS wownero-app
     DESTINATION ${CMAKE_INSTALL_PREFIX}
 )

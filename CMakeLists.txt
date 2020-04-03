@@ -439,5 +439,5 @@ endif()
 add_subdirectory(src)
 
 # Required to make wallet_merged build before the gui
-add_dependencies(monero-wallet-gui wallet_merged)
+add_dependencies(wownero-app wallet_merged)
 
