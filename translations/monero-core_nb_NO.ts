@@ -2126,8 +2126,8 @@ Du kan endre passordet i lommebok-innstillingene.</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="161"/>
-        <source>Spendable funds: %1 XMR. Please wait ~%2 minutes for your whole balance to become spendable.</source>
-        <translation>Forbrukbare midler: %1 XMR. Vennligst vent ~%2 minutter på at hele saldoen din blir forbrukbar.</translation>
+        <source>Spendable funds: %1 WOW. Please wait ~%2 minutes for your whole balance to become spendable.</source>
+        <translation>Forbrukbare midler: %1 WOW. Vennligst vent ~%2 minutter på at hele saldoen din blir forbrukbar.</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="180"/>
