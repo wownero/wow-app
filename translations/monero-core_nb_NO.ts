@@ -64,8 +64,8 @@
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="100"/>
-        <source>This makes it easier to send or receive Monero and reduces errors when typing in addresses manually.</source>
-        <translation>Dette gjør det lettere å sende eller motta Monero og reduserer sjansen for feil når man taster inn adresser manuelt.</translation>
+        <source>This makes it easier to send or receive Wownero and reduces errors when typing in addresses manually.</source>
+        <translation>Dette gjør det lettere å sende eller motta Wownero og reduserer sjansen for feil når man taster inn adresser manuelt.</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="114"/>
@@ -490,13 +490,13 @@
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="62"/>
-        <source>WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
-        <translation>ADVARSEL: Ikke bruk Monero-nøklene dine på nytt på en annen fork, MED MINDRE denne forken har innebygde skadebegrensningstiltak for gjenbruk av nøkler. Å gjøre dette vil skade personvernet ditt.</translation>
+        <source>WARNING: Do not reuse your Wownero keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
+        <translation>ADVARSEL: Ikke bruk Wownero-nøklene dine på nytt på en annen fork, MED MINDRE denne forken har innebygde skadebegrensningstiltak for gjenbruk av nøkler. Å gjøre dette vil skade personvernet ditt.</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="85"/>
-        <source>WARNING: Copying your seed to clipboard can expose you to malicious software, which may record your seed and steal your Monero. Please write down your seed manually.</source>
-        <translation>ADVARSEL: Å kopiere frøet ditt til utklippstavlen kan utsette deg for ondsinnet programvare som kan snappe opp frøet ditt og stjele dine Monero. Skriv ned frøet ditt manuelt.</translation>
+        <source>WARNING: Copying your seed to clipboard can expose you to malicious software, which may record your seed and steal your Wownero. Please write down your seed manually.</source>
+        <translation>ADVARSEL: Å kopiere frøet ditt til utklippstavlen kan utsette deg for ondsinnet programvare som kan snappe opp frøet ditt og stjele dine Wownero. Skriv ned frøet ditt manuelt.</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="106"/>
@@ -914,12 +914,12 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="71"/>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.
+        <source>Mining with your computer helps strengthen the Wownero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.
 
-Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Å utvinne med PC-en din bidrar til å styrke Monero-nettverket. Jo flere som utvinner, jo vanskeligere blir det for nettverket å bli angrepet. Alle monner drar.
+Mining also gives you a small chance to earn some Wownero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Å utvinne med PC-en din bidrar til å styrke Wownero-nettverket. Jo flere som utvinner, jo vanskeligere blir det for nettverket å bli angrepet. Alle monner drar.
 
-Utvinning gir deg også muligheten til å tjene litt Monero. PC-en din vil lage hasher med hensikt å finne frem til blokkløsninger. Hvis du finner en blokk, får du den tilhørende belønningen. Lykke til!</translation>
+Utvinning gir deg også muligheten til å tjene litt Wownero. PC-en din vil lage hasher med hensikt å finne frem til blokkløsninger. Hvis du finner en blokk, får du den tilhørende belønningen. Lykke til!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="83"/>
@@ -1279,8 +1279,8 @@ Utvinning gir deg også muligheten til å tjene litt Monero. PC-en din vil lage 
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="100"/>
-        <source>Embedded Monero version: </source>
-        <translation>Innebygd Monero-versjon: </translation>
+        <source>Embedded Wownero version: </source>
+        <translation>Innebygd Wownero-versjon: </translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="130"/>
@@ -1489,13 +1489,13 @@ Lommebokens gamle mellomlagerfil vil bli gitt et nytt navn og kan gjenopprettes 
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="230"/>
-        <source>Uses a third-party server to connect to the Monero network. Less secure, but easier on your computer.</source>
-        <translation>Bruker en tredjepartsserver til å koble til Monero-nettverket. Mindre sikkert, men lettere å håndtere for PC-en din.</translation>
+        <source>Uses a third-party server to connect to the Wownero network. Less secure, but easier on your computer.</source>
+        <translation>Bruker en tredjepartsserver til å koble til Wownero-nettverket. Mindre sikkert, men lettere å håndtere for PC-en din.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="274"/>
-        <source>To find a remote node, type &apos;Monero remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
-        <translation>For å finne en ekstern node, kan du skrive inn «Monero remote node» i søkemotoren din. Påse at noden kjøres av en pålitelig tredjepart.</translation>
+        <source>To find a remote node, type &apos;Wownero remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <translation>For å finne en ekstern node, kan du skrive inn «Wownero remote node» i søkemotoren din. Påse at noden kjøres av en pålitelig tredjepart.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="282"/>
@@ -1712,8 +1712,8 @@ Du kan endre passordet i lommebok-innstillingene.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="104"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by Monero wallets as well as wallets from Monero clones which reuse the Monero keys.</source>
-        <translation>Denne siden lar deg samhandle med den delte ringdatabasen. Denne databasen er ment til å brukes av både Monero-lommebøker og lommebøker fra Monero-kloner som gjenbruker Monero-nøkler.</translation>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by Wownero wallets as well as wallets from Wownero clones which reuse the Wownero keys.</source>
+        <translation>Denne siden lar deg samhandle med den delte ringdatabasen. Denne databasen er ment til å brukes av både Wownero-lommebøker og lommebøker fra Wownero-kloner som gjenbruker Wownero-nøkler.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="117"/>
@@ -1729,8 +1729,8 @@ Du kan endre passordet i lommebok-innstillingene.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="120"/>
-        <source>In order to obscure which inputs in a Monero transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Monero uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Monero project and is available on the wownero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Monero clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>For å tilsløre hvilke inndata i en Monero-transaksjon som brukes, vil en tredjepart ikke være i stand til å vite hvilke inndata i en ring som allerede er brukt. Å vite dette ville ha svekket beskyttelsen som ringsignaturer gir. Hvis det er kjent at alle bortsett fra én av inndataene allerede er brukt, vil inndataene som allerede er brukt komme tydelig frem, noe som ugyldiggjør effekten av ringsignaturer, som er én av de tre hovedlagene av personvernbeskyttelse som Monero bruker.&lt;br&gt;For å bidra til at transaksjonene unngår disse inndataene, kan en liste av kjente inndata brukes for å unngå bruke dem i nye transaksjoner. En slik liste vedlikeholdes av Monero-prosjektet og er tilgjengelig på wownero.org-nettsiden. Du kan importere denne listen her.&lt;br&gt;Alternativt kan du skanne blokkjeden (og blokkjeden av Monero-kloner som gjenbruker nøkler) på egenhånd ved å bruke «monero-blockchain-mark-spent-outputs»-verktøyet for å opprette en liste over kjente, brukte utdata.&lt;br&gt;</translation>
+        <source>In order to obscure which inputs in a Wownero transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Wownero uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Wownero project and is available on the wownero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Wownero clones) yourself using the wownero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
+        <translation>For å tilsløre hvilke inndata i en Wownero-transaksjon som brukes, vil en tredjepart ikke være i stand til å vite hvilke inndata i en ring som allerede er brukt. Å vite dette ville ha svekket beskyttelsen som ringsignaturer gir. Hvis det er kjent at alle bortsett fra én av inndataene allerede er brukt, vil inndataene som allerede er brukt komme tydelig frem, noe som ugyldiggjør effekten av ringsignaturer, som er én av de tre hovedlagene av personvernbeskyttelse som Wownero bruker.&lt;br&gt;For å bidra til at transaksjonene unngår disse inndataene, kan en liste av kjente inndata brukes for å unngå bruke dem i nye transaksjoner. En slik liste vedlikeholdes av Wownero-prosjektet og er tilgjengelig på wownero.org-nettsiden. Du kan importere denne listen her.&lt;br&gt;Alternativt kan du skanne blokkjeden (og blokkjeden av Wownero-kloner som gjenbruker nøkler) på egenhånd ved å bruke «wownero-blockchain-mark-spent-outputs»-verktøyet for å opprette en liste over kjente, brukte utdata.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="141"/>
@@ -1800,13 +1800,13 @@ Du kan endre passordet i lommebok-innstillingene.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="257"/>
-        <source>In order to avoid nullifying the protection afforded by Monero&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Monero clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Monero and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Monero clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Monero safely.&lt;br&gt;If you do not use a key-reusing Monero clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation>For å unngå å ugyldiggjøre beskyttelsen som gis av Moneros ringsignaturer, bør en utdata ikke brukes med forskjellige ringer på forskjellige blokkjeder. Dette er normalt ikke et problem, men det kan bli et når en Monero-klone som gjenbruker ringer lar deg forbruke eksisterende utdata. I dette tilfellet må du påse at disse eksisterende utdataene bruker den samme ringen på begge kjedene.&lt;br&gt;Dette vil gjøres automatisk av Monero, og av en eventuell nøkkelgjenbruks-programvare som ikke aktivt prøver å frarøve deg personvernet ditt.&lt;br&gt;Hvis du også bruker en Monero-klone med nøkkelgjenbruk og denne beskyttelsen ikke er inkludert i denne klonen, kan du fremdeles påse at transaksjonene er beskyttet ved å først forbruke på klonen og deretter legge til ringen på denne siden, som lar bruke dine Monero på en trygg måte.&lt;br&gt;Hvis du ikke bruker en Monero-klone med nøkkelgjenbruk uten disse sikkerhetsvalgene, trenger du ikke du å gjøre noe da alt gjøres automatisk.&lt;br&gt;</translation>
+        <source>In order to avoid nullifying the protection afforded by Wownero&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Wownero clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Wownero and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Wownero clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Wownero safely.&lt;br&gt;If you do not use a key-reusing Wownero clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <translation>For å unngå å ugyldiggjøre beskyttelsen som gis av Wowneros ringsignaturer, bør en utdata ikke brukes med forskjellige ringer på forskjellige blokkjeder. Dette er normalt ikke et problem, men det kan bli et når en Wownero-klone som gjenbruker ringer lar deg forbruke eksisterende utdata. I dette tilfellet må du påse at disse eksisterende utdataene bruker den samme ringen på begge kjedene.&lt;br&gt;Dette vil gjøres automatisk av Wownero, og av en eventuell nøkkelgjenbruks-programvare som ikke aktivt prøver å frarøve deg personvernet ditt.&lt;br&gt;Hvis du også bruker en Wownero-klone med nøkkelgjenbruk og denne beskyttelsen ikke er inkludert i denne klonen, kan du fremdeles påse at transaksjonene er beskyttet ved å først forbruke på klonen og deretter legge til ringen på denne siden, som lar bruke dine Wownero på en trygg måte.&lt;br&gt;Hvis du ikke bruker en Wownero-klone med nøkkelgjenbruk uten disse sikkerhetsvalgene, trenger du ikke du å gjøre noe da alt gjøres automatisk.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="279"/>
-        <source>This records rings used by outputs spent on Monero on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
-        <translation>Dette registrerer ringer som brukes av utdata som brukes på Monero på en kjede som gjenbruker nøkler, slik at den samme ringen kan brukes på nytt av personvernhensyn.</translation>
+        <source>This records rings used by outputs spent on Wownero on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <translation>Dette registrerer ringer som brukes av utdata som brukes på Wownero på en kjede som gjenbruker nøkler, slik at den samme ringen kan brukes på nytt av personvernhensyn.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="290"/>
@@ -1990,8 +1990,8 @@ Du kan endre passordet i lommebok-innstillingene.</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="342"/>
-        <source>Enter the Monero Address (example: 44AFFq5kSiGBoZ...)</source>
-        <translation>Legg inn Monero-adressen (f.eks.: 44AFFq5kSiGBoZ...)</translation>
+        <source>Enter the Wownero Address (example: 44AFFq5kSiGBoZ...)</source>
+        <translation>Legg inn Wownero-adressen (f.eks.: 44AFFq5kSiGBoZ...)</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="352"/>
@@ -2349,8 +2349,8 @@ Ringstørrelse: </translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="640"/>
-        <source>Monero sent successfully</source>
-        <translation>Moneroene er sendt</translation>
+        <source>Wownero sent successfully</source>
+        <translation>Wowneroene er sendt</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="704"/>
@@ -2741,8 +2741,8 @@ du må kanskje oppgi inndata.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardCreateWallet3.qml" line="60"/>
-        <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.</source>
-        <translation>For å kunne kommunisere med Monero-nettverket, må lommeboken din være koblet til en Monero-node. For høyest grad av personvern, er det anbefalt å kjøre din egen node.</translation>
+        <source>To be able to communicate with the Wownero network your wallet needs to be connected to a Wownero node. For best privacy it&apos;s recommended to run your own node.</source>
+        <translation>For å kunne kommunisere med Wownero-nettverket, må lommeboken din være koblet til en Wownero-node. For høyest grad av personvern, er det anbefalt å kjøre din egen node.</translation>
     </message>
 </context>
 <context>
@@ -2792,8 +2792,8 @@ du må kanskje oppgi inndata.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="115"/>
-        <source>Additionally, you may specify a bootstrap node to use Monero immediately.</source>
-        <translation>Du kan i tillegg spesifisere en bootstrap-node slik at du kan bruke Monero med én gang.</translation>
+        <source>Additionally, you may specify a bootstrap node to use Wownero immediately.</source>
+        <translation>Du kan i tillegg spesifisere en bootstrap-node slik at du kan bruke Wownero med én gang.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="163"/>
@@ -2805,7 +2805,7 @@ du må kanskje oppgi inndata.</translation>
     <name>WizardHome</name>
     <message>
         <location filename="../wizard/WizardHome.qml" line="61"/>
-        <source>Welcome to Monero</source>
+        <source>Welcome to Wownero</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2815,8 +2815,8 @@ du må kanskje oppgi inndata.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="67"/>
-        <source>Choose this option if this is your first time using Monero.</source>
-        <translation>Velg denne valgmuligheten hvis dette er første gang du bruker Monero.</translation>
+        <source>Choose this option if this is your first time using Wownero.</source>
+        <translation>Velg denne valgmuligheten hvis dette er første gang du bruker Wownero.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="87"/>
@@ -2825,8 +2825,8 @@ du må kanskje oppgi inndata.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="88"/>
-        <source>Connect your hardware wallet to create a new Monero wallet.</source>
-        <translation>Koble til maskinvarelommeboken din for å opprette en ny Monero-lommebok.</translation>
+        <source>Connect your hardware wallet to create a new Wownero wallet.</source>
+        <translation>Koble til maskinvarelommeboken din for å opprette en ny Wownero-lommebok.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="107"/>
@@ -2883,8 +2883,8 @@ du må kanskje oppgi inndata.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardLang.qml" line="94"/>
-        <source>Change the language of the Monero GUI.</source>
-        <translation>Endre språket på Monero-GUI-en.</translation>
+        <source>Change the language of the Wownero GUI.</source>
+        <translation>Endre språket på Wownero-GUI-en.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardLang.qml" line="183"/>
@@ -2924,8 +2924,8 @@ du må kanskje oppgi inndata.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardModeBootstrap.qml" line="84"/>
-        <source>Temporary use of remote nodes is useful in order to use Monero immediately (hence the name bootstrap), however be aware that when using remote nodes (including with the bootstrap setting), nodes could track your IP address, track your &quot;restore height&quot; and associated block request data, and send you inaccurate information to learn more about transactions you make.</source>
-        <translation>Midlertidig bruk av eksterne noder er nyttig for kunne bruke Monero med én gang (derav bootstrap-navnet), men man må imidlertid være klar over at når man bruker eksterne noder (inkludert med bootstrap-innstillinger), kan nodene spore din IP-adressen, spore din «gjenopprettingshøyde» og tilknyttede blokkforespørselsdata, og sende deg uriktig informasjon for å få innsyn i transaksjonene du foretar deg.</translation>
+        <source>Temporary use of remote nodes is useful in order to use Wownero immediately (hence the name bootstrap), however be aware that when using remote nodes (including with the bootstrap setting), nodes could track your IP address, track your &quot;restore height&quot; and associated block request data, and send you inaccurate information to learn more about transactions you make.</source>
+        <translation>Midlertidig bruk av eksterne noder er nyttig for kunne bruke Wownero med én gang (derav bootstrap-navnet), men man må imidlertid være klar over at når man bruker eksterne noder (inkludert med bootstrap-innstillinger), kan nodene spore din IP-adressen, spore din «gjenopprettingshøyde» og tilknyttede blokkforespørselsdata, og sende deg uriktig informasjon for å få innsyn i transaksjonene du foretar deg.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardModeBootstrap.qml" line="97"/>
@@ -2947,8 +2947,8 @@ du må kanskje oppgi inndata.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardModeRemoteNodeWarning.qml" line="72"/>
-        <source>This mode is ideal for managing small amounts of Monero. You have access to basic features for making and managing transactions. It will automatically connect to the Monero network so you can start using Monero immediately.</source>
-        <translation>Denne modusen er ideell for å håndtere små mengder med Monero. Du har tilgang til grunnleggende funksjoner for å foreta og håndtere transaksjoner. Den vil automatisk koble til Monero-nettverket slik at du kan begynne å bruke Monero umiddelbart.</translation>
+        <source>This mode is ideal for managing small amounts of Wownero. You have access to basic features for making and managing transactions. It will automatically connect to the Wownero network so you can start using Wownero immediately.</source>
+        <translation>Denne modusen er ideell for å håndtere små mengder med Wownero. Du har tilgang til grunnleggende funksjoner for å foreta og håndtere transaksjoner. Den vil automatisk koble til Wownero-nettverket slik at du kan begynne å bruke Wownero umiddelbart.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardModeRemoteNodeWarning.qml" line="85"/>
@@ -3138,10 +3138,10 @@ du må kanskje oppgi inndata.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardRestoreWallet3.qml" line="68"/>
-        <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.
+        <source>To be able to communicate with the Wownero network your wallet needs to be connected to a Wownero node. For best privacy it&apos;s recommended to run your own node.
 
 If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation>For å kunne kommunisere med Monero-nettverket, må lommeboken din være koblet til en Monero-node. For høyest grad av personvern, er det anbefalt å kjøre din egen node.
+        <translation>For å kunne kommunisere med Wownero-nettverket, må lommeboken din være koblet til en Wownero-node. For høyest grad av personvern, er det anbefalt å kjøre din egen node.
 
 Hvis du ikke har muligheten til å kjøre din egen node, kan du velge å koble til en ekstern node.</translation>
     </message>
@@ -3416,8 +3416,8 @@ du må kanskje oppgi inndata.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="964"/>
-        <source>Monero sent successfully: %1 transaction(s) </source>
-        <translation>Moneroene har blitt sendt: %1 transaksjon(er) </translation>
+        <source>Wownero sent successfully: %1 transaction(s) </source>
+        <translation>Wowneroene har blitt sendt: %1 transaksjon(er) </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1004"/>
@@ -3445,8 +3445,8 @@ du må kanskje oppgi inndata.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1047"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Denne adressen mottok %1 monero med %2 bekreftelse(r).</translation>
+        <source>This address received %1 wownero, with %2 confirmation(s).</source>
+        <translation>Denne adressen mottok %1 wownero med %2 bekreftelse(r).</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1058"/>
@@ -3526,7 +3526,7 @@ du må kanskje oppgi inndata.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1983"/>
-        <source>New version of Monero v%1 is available.</source>
+        <source>New version of Wownero v%1 is available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3577,8 +3577,8 @@ du må kanskje oppgi inndata.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1044"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Denne adressen mottok %1 monero, men transaksjonen er enda ikke utvunnet</translation>
+        <source>This address received %1 wownero, but the transaction is not yet mined</source>
+        <translation>Denne adressen mottok %1 wownero, men transaksjonen er enda ikke utvunnet</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1051"/>
