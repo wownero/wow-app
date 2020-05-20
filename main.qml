@@ -1372,7 +1372,7 @@ ApplicationWindow {
         property bool historyHumanDates: true
         property string blockchainDataDir: ""
         property bool useRemoteNode: true
-        property string remoteNodeAddress: "so.wow.candy.surf"
+        property string remoteNodeAddress: "wow.candy.surf"
         property string bootstrapNodeAddress: ""
         property bool segregatePreForkOutputs: false
         property bool keyReuseMitigation2: false
