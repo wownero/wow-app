@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BUILD_TYPE=$1
-BUILD_TREZOR=${BUILD_TREZOR-true}
+BUILD_TREZOR=${BUILD_TREZOR-false}
 source ./utils.sh
 platform=$(get_platform)
 # default build type

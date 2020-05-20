@@ -1373,7 +1373,7 @@ ApplicationWindow {
         property string blockchainDataDir: ""
         property bool useRemoteNode: false
         property string remoteNodeAddress: ""
-        property string bootstrapNodeAddress: "so.wow.candy.surf:34568"
+        property string bootstrapNodeAddress: ""
         property bool segregatePreForkOutputs: false
         property bool keyReuseMitigation2: false
         property int segregationHeight: 0
@@ -1383,13 +1383,13 @@ ApplicationWindow {
         property bool lockOnUserInActivity: true
         property int walletMode: 2
         property int lockOnUserInActivityInterval: 10  // minutes
-        property bool blackTheme: true
-        property bool checkForUpdates: true
+        property bool blackTheme: false
+        property bool checkForUpdates: false
         property bool autosave: true
         property int autosaveMinutes: 10
 
-        property bool fiatPriceEnabled: true
-        property bool fiatPriceToggle: true
+        property bool fiatPriceEnabled: false
+        property bool fiatPriceToggle: false
         property string fiatPriceProvider: "coingecko"
         property string fiatPriceCurrency: "wowusd"
 

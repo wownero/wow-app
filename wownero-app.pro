@@ -558,10 +558,6 @@ DISTFILES += \
     notes.txt \
     monero/src/wallet/CMakeLists.txt
 
-VERSION = $$cat('version.js', lines)
-VERSION = $$find(VERSION, 'GUI_VERSION')
-VERSION_LONG = $$replace(VERSION, '.*\"v(.*)\"', '\1') 
-VERSION = $$replace(VERSION, '.*(\d+\.\d+\.\d+\.\d+).*', '\1')
 
 # windows application icon
 RC_ICONS = images/appicon.ico
