@@ -83,7 +83,7 @@ QString getAccountName(){
     if (accountName.isEmpty())
         accountName = qgetenv("USERNAME"); // Windows
     if (accountName.isEmpty())
-        accountName = "My wownero Account";
+        accountName = "My Wownero Account";
     return accountName;
 }
 
@@ -101,7 +101,7 @@ QString xdgMime(QApplication &app){
         "Type=Application\n"
         "Icon=monero\n"
         "Categories=Network;GNOME;Qt;\n"
-        "MimeType=x-scheme-handler/monero;x-scheme-handler/moneroseed\n"
+        "MimeType=x-scheme-handler/monero;x-scheme-handler/wowneroseed\n"
         "StartupNotify=true\n"
         "X-GNOME-Bugzilla-Bugzilla=GNOME\n"
         "X-GNOME-UsesNotifications=true\n"

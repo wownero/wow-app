@@ -118,7 +118,7 @@ target_include_directories(wownero-app PUBLIC
     ${ZBAR_INCLUDE_DIR}
 )
 
-target_compile_definitions(wowneor-wallet-gui
+target_compile_definitions(wownero-app
 	PUBLIC
 	${Qt5Widgets_DEFINITIONS}
     ${Qt5Qml_DEFINITIONS}

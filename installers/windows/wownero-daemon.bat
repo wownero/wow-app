@@ -1,3 +1,3 @@
 REM Execute the Monero daemon and then stay with window open after it exits
-"C:\Program Files\Monero Core\wownerod.exe"
+"C:\Program Files\Wownero Core\wownerod.exe"
 PAUSE

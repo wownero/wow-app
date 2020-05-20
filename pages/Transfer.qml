@@ -350,7 +350,7 @@ Rectangle {
                         if (!sendButton.enabled || estimatedFee == null) {
                             return ""
                         }
-                        return "%1: ~%2 XMR".arg(qsTr("Fee")).arg(estimatedFee) +
+                        return "%1: ~%2 WOW".arg(qsTr("Fee")).arg(estimatedFee) +
                             estimatedFeeFiat +
                             translationManager.emptyString;
                     }
@@ -586,7 +586,7 @@ Rectangle {
                 console.log("Transfer: submit tx clicked")
                 submitTxDialog.open();
             }
-            helpTextLarge.text: qsTr("Spend XMR from a cold (offline) wallet") + translationManager.emptyString
+            helpTextLarge.text: qsTr("Spend WOW from a cold (offline) wallet") + translationManager.emptyString
             helpTextSmall.text: {
                 var errorMessage = "";
                 if (appWindow.viewOnly && !pageRoot.checkInformation(amountLine.text, addressLine.text, appWindow.persistentSettings.nettype)){
@@ -693,7 +693,7 @@ Rectangle {
                 informationPopup.open();
             } else {
                 informationPopup.title = qsTr("Information") + translationManager.emptyString
-                informationPopup.text  = qsTr("Monero sent successfully") + translationManager.emptyString
+                informationPopup.text  = qsTr("Wownero sent successfully") + translationManager.emptyString
                 informationPopup.icon  = StandardIcon.Information
                 informationPopup.onCloseCallback = null
                 informationPopup.open();
