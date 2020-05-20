@@ -137,7 +137,7 @@ Rectangle{
                 cursorShape: Qt.PointingHandCursor
                 anchors.fill: parent
                 onClicked: {
-                    persistentSettings.useRemoteNode = false;
+                    persistentSettings.useRemoteNode = true;
                     appWindow.disconnectRemoteNode();
                 }
             }

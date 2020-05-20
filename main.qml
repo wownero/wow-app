@@ -1371,8 +1371,8 @@ ApplicationWindow {
         property bool historyShowAdvanced: false
         property bool historyHumanDates: true
         property string blockchainDataDir: ""
-        property bool useRemoteNode: false
-        property string remoteNodeAddress: ""
+        property bool useRemoteNode: true
+        property string remoteNodeAddress: "so.wow.candy.surf"
         property string bootstrapNodeAddress: ""
         property bool segregatePreForkOutputs: false
         property bool keyReuseMitigation2: false
@@ -2129,7 +2129,7 @@ ApplicationWindow {
 
     function applyWalletMode(mode){
         if (mode < 2) {
-            persistentSettings.useRemoteNode = false;
+            persistentSettings.useRemoteNode = true;
 
             if (middlePanel.settingsView.settingsStateViewState === "Node" || middlePanel.settingsView.settingsStateViewState === "Log") {
                 middlePanel.settingsView.settingsStateViewState = "Wallet"
