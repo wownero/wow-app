@@ -55,7 +55,7 @@ jobs:
         install: mingw-w64-x86_64-toolchain make mingw-w64-x86_64-cmake mingw-w64-x86_64-boost mingw-w64-x86_64-openssl mingw-w64-x86_64-zeromq mingw-w64-x86_64-libsodium mingw-w64-x86_64-hidapi mingw-w64-x86_64-protobuf-c mingw-w64-x86_64-libusb git mingw-w64-x86_64-qt5 mingw-w64-x86_64-libgcrypt
     - name: build
       run: |
-        sed -i 's/CONFIG\ +=\ qtquickcompiler//' monero-wallet-gui.pro
+        sed -i 's/CONFIG\ +=\ qtquickcompiler//' wownero-app.pro
         ./build.sh release
     - name: test qml
       run: build/release/bin/wownero-app --test-qml
